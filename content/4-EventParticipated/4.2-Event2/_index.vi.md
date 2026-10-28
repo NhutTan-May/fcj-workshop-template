@@ -92,6 +92,6 @@ Tham gia sự kiện **AWS Cloud and AI Day Hanoi - Watch Party Ho Chi Minh City
 - Tinh thần "Why not make every idea possible?" thúc đẩy sự chủ động ứng dụng hạ tầng đám mây để hiện thực hóa các ý tưởng phần mềm nhanh chóng và an toàn.
 
 #### Một số hình ảnh khi tham gia sự kiện
-- ![Check-in ở hội trường theo dõi tại Bitexco Financial Tower](/images/4-Events/event02.jpg)
+- ![Check-in ở hội trường theo dõi tại Bitexco Financial Tower](/fcj-workshop-template/images/4-Events/event02.jpg)
 
 > Tổng thể, sự kiện không chỉ cập nhật những bước tiến công nghệ đột phá của AWS mà còn truyền cảm hứng mạnh mẽ, giúp tôi định hình rõ ràng hơn lộ trình phát triển chuyên môn trong lĩnh vực Cloud Computing và Trí tuệ Nhân tạo.
