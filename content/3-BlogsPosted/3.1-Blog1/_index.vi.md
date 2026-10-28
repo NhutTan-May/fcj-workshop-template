@@ -23,7 +23,7 @@ Tính năng này đặc biệt hữu ích cho các doanh nghiệp chạy kiến 
 
 **Hình ảnh:**
 
-![Amazon ECS Gateway Architecture](/images/3-Blog/Blog01.png)
+![Amazon ECS Gateway Architecture](/fcj-workshop-template/images/3-Blog/Blog01.png)
 
 **Link:** https://www.facebook.com/share/p/18m9M4gdzv/
 
