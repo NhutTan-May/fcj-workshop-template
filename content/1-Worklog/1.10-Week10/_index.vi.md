@@ -1,59 +1,40 @@
 ---
 title: "Worklog Tuần 10"
-date: 2024-01-01
-weight: 2
+date: 2026-11-16
+weight: 10
 chapter: false
 pre: " <b> 1.10. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
+# Worklog Tuần 10
 
 ### Mục tiêu tuần 10:
-
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+- Amazon EKS, CI/CD pipeline và serverless frontend
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| :---: | :--- | :---: | :---: | :--- |
+| **2** | - Tìm hiểu dịch vụ quản lý Kubernetes Amazon EKS | 16/11/2026 | 16/11/2026 | <https://cloudjourney.awsstudygroup.com/5-containers/> |
+| **3** | - Xem giao diện tạo cụm EKS và cấu hình máy chủ Node Group | 17/11/2026 | 17/11/2026 | <https://cloudjourney.awsstudygroup.com/5-containers/> |
+| **4** | - Cấu hình pipeline tự động triển khai container từ GitHub qua AWS CodePipeline | 18/11/2026 | 18/11/2026 | <https://cloudjourney.awsstudygroup.com/5-containers/> |
+| **5** | - Tạo chứng chỉ SSL/TLS miễn phí qua AWS Certificate Manager (ACM) | 19/11/2026 | 19/11/2026 | <https://cloudjourney.awsstudygroup.com/4-modernize/> |
+| **6** | - Tăng tốc phân phối trang web tĩnh ra toàn cầu với Amazon CloudFront | 20/11/2026 | 20/11/2026 | <https://cloudjourney.awsstudygroup.com/4-modernize/> |
+
+---
 
 ### Kết quả đạt được tuần 10:
+- Hiểu kiến trúc cụm container chuẩn Kubernetes trên Amazon EKS
+- Xây dựng luồng CI/CD tự động cập nhật container lên mạng
+- Bảo mật trang web bằng HTTPS với ACM và tăng tốc truy cập qua CloudFront
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+Dịch vụ AWS đã sử dụng:
+- Amazon EKS
+- AWS CodePipeline
+- AWS Certificate Manager (ACM)
+- Amazon CloudFront
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+Kỹ năng đạt được:
+- Làm quen với nền tảng Kubernetes trên đám mây
+- Tự động hóa phát hành phần mềm
+- Tối ưu hóa tốc độ và bảo mật cho giao diện web

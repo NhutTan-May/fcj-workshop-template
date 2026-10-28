@@ -1,58 +1,42 @@
 ---
 title: "Worklog Tuần 6"
-date: 2024-01-01
-weight: 1
+date: 2026-10-19
+weight: 6
 chapter: false
 pre: " <b> 1.6. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
 
 ### Mục tiêu tuần 6:
-
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+- AWS Security Hub, AWS WAF
+- Quản lý khóa với AWS KMS
+- Container hóa với Docker/ECS và CI/CD
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| :---: | :--- | :---: | :---: | :--- |
+| **2** | - Kiểm tra benchmark bảo mật với AWS Security Hub<br>| 19/10/2026 | 19/10/2026 | <https://000018.awsstudygroup.com/vi/><br><https://000026.awsstudygroup.com/vi/> |
+| **3** | - Quản lý khóa với Key Management Service (AWS KMS)<br> | 20/10/2026 | 20/10/2026 | <https://000033.awsstudygroup.com/vi/> |
+| **4** | - Triển khai ứng dụng với Docker<br>- Tạo kho lưu trữ ảnh ứng dụng trên Amazon ECR | 21/10/2026 | 21/10/2026 | <https://000015.awsstudygroup.com/vi/> |
+| **5** |- Chạy container phi máy chủ với AWS Fargate | 22/10/2026 | 22/10/2026 | <https://000016.awsstudygroup.com/vi/> |
+| **6** | - Tìm hiểu ứng dụng tự động với AWS CodePipeline | 23/10/2026 | 23/10/2026 | <https://000029.awsstudygroup.com/vi/> |
+
+---
 
 ### Kết quả đạt được tuần 6:
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+- Kiểm tra benchmark bảo mật bằng AWS Security Hub và bảo vệ ứng dụng bằng AWS WAF
+- Triển khai quản lý khóa bằng AWS KMS
+- Triển khai ứng dụng bằng Docker 
+- Quy trình triển khai tự động với AWS CodePipeline
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+Dịch vụ AWS đã sử dụng:
+- AWS Security Hub & AWS WAF
+- AWS KMS
+- Amazon ECR & Amazon ECS 
+- AWS CodePipeline
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+Kỹ năng đạt được:
+- Giám sát bảo mật cloud và bảo vệ ứng dụng web
+- Quản lý khóa mã hóa dữ liệu
+- Chạy ứng dụng dạng container trên đám mây
+- Tự động hóa quy trình cập nhật code (CI/CD cơ bản)

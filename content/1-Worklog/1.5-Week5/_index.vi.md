@@ -1,59 +1,39 @@
 ---
 title: "Worklog Tuần 5"
-date: 2024-01-01
-weight: 1
+date: 2026-10-12
+weight: 5
 chapter: false
 pre: " <b> 1.5. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
 
 ### Mục tiêu tuần 5:
-
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+- Tạo tài nguyên tự động với CloudFormation
+- Tìm hiểu Lambda và quản lý đăng nhập SSO
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| :---: | :--- | :---: | :---: | :--- |
+| **2** | - Tìm hiểu Infrastructure as Code (IaC)<br>- Chạy thử file mẫu tạo tài nguyên tự động trên AWS CloudFormation | 12/10/2026 | 12/10/2026 | <https://000017.awsstudygroup.com/vi/> |
+| **3** | - Tạo hàm AWS Lambda đơn giản trên Console<br>- Hẹn giờ bằng EventBridge tự động tắt EC2 ban đêm tiết kiệm chi phí | 13/10/2026 | 13/10/2026 | <https://000019.awsstudygroup.com/vi/> |
+| **4** | - Cấu hình IAM Role cho AWS Systems Manager (SSM)<br>| 14/10/2026 | 14/10/2026 | <https://000012.awsstudygroup.com/vi/> |
+| **5** | - Kích hoạt AWS IAM Identity Center (Amazon SSO)<br> | 15/10/2026 | 15/10/2026 | <https://000024.awsstudygroup.com/vi/> |
+| **6** | - Cấu hình IAM Permission Boundary giới hạn quyền tối đa<br> | 16/10/2026 | 16/10/2026 | <https://000025.awsstudygroup.com/vi/> |
+
+---
 
 ### Kết quả đạt được tuần 5:
+- Tự động tạo và xóa hạ tầng bằng AWS CloudFormation
+- Tự động tắt máy chủ ngoài giờ bằng Lambda và EventBridge
+- Đăng nhập tập trung qua SSO và quản lý máy chủ an toàn qua Session Manager
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+Dịch vụ AWS đã sử dụng:
+- AWS CloudFormation
+- AWS Lambda & Amazon EventBridge
+- AWS Systems Manager (Session Manager)
+- AWS IAM Identity Center (SSO)
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+Kỹ năng đạt được:
+- Tạo hạ tầng bằng code mẫu
+- Tự động hóa tác vụ vận hành không máy chủ
+- Quản trị bảo mật danh tính người dùng

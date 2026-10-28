@@ -1,59 +1,40 @@
 ---
 title: "Worklog Tuần 7"
-date: 2024-01-01
-weight: 1
+date: 2026-10-26
+weight: 7
 chapter: false
 pre: " <b> 1.7. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
 
 ### Mục tiêu tuần 7:
-
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+- Data Lake, lưu trữ hybrid
+- Tối ưu chi phí cloud
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| :---: | :--- | :---: | :---: | :--- |
+| **2** | - Cấu hình dịch vụ lưu trữ hybrid với AWS Storage Gateway (File Gateway) | 26/10/2026 | 26/10/2026 | <https://000027.awsstudygroup.com/vi/> |
+| **3** | - Tạo hệ thống tệp chia sẻ tốc độ cao với Amazon FSx for Windows File Server | 27/10/2026 | 27/10/2026 | <https://000028.awsstudygroup.com/vi/> |
+| **4** | - Xây dựng Data Lake lưu trữ tập trung dữ liệu thô trên Amazon S3 | 28/10/2026 | 28/10/2026 | <https://000030.awsstudygroup.com/vi/> |
+| **5** | - Tạo bảng NoSQL hiệu năng cao với Amazon DynamoDB | 29/10/2026 | 29/10/2026 | <https://000031.awsstudygroup.com/vi/> |
+| **6** | - Tìm hiểu tối ưu chi phí với Savings Plans và Reserved Instances<br>- Dùng AWS Compute Optimizer chọn kích thước máy chủ chuẩn | 30/10/2026 | 30/10/2026 | <https://000032.awsstudygroup.com/vi/> |
+
+---
 
 ### Kết quả đạt được tuần 7:
+- Cấu hình lưu trữ tệp tin hybrid và hệ thống chia sẻ tệp tốc độ cao với Amazon FSx
+- Tạo nền tảng Data Lake trên S3 và làm quen cơ sở dữ liệu NoSQL DynamoDB
+- Nắm vững các phương pháp cắt giảm chi phí hạ tầng với Savings Plans và Right-sizing
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+Dịch vụ AWS đã sử dụng:
+- AWS Storage Gateway
+- Amazon FSx
+- Amazon S3
+- Amazon DynamoDB
+- AWS Compute Optimizer
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+Kỹ năng đạt được:
+- Quản trị các giải pháp lưu trữ tệp đa dạng trên cloud
+- Thao tác cơ bản với database NoSQL
+- Phân tích và tối ưu hóa chi phí điện toán

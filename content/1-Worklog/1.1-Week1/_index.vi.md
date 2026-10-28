@@ -1,59 +1,38 @@
 ---
 title: "Worklog Tuần 1"
-date: 2024-01-01
+date: 2026-09-14
 weight: 1
 chapter: false
 pre: " <b> 1.1. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
 
 ### Mục tiêu tuần 1:
-
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+- Tạo tài khoản AWS Free Tier và quản lý chi phí
+- Làm quen AWS Management Console
+- Quản lý phân quyền với AWS IAM
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| :---: | :--- | :---: | :---: | :--- |
+| **2** | - Tạo tài khoản AWS Free Tier<br>- Khám phá AWS Console<br>- Đọc danh sách Credit Killer tránh phát sinh phí | 14/09/2026 | 14/09/2026 | <https://000001.awsstudygroup.com/vi/1-aws-free-tier-2025-revolution/> |
+| **3** | - Tạo Cost Budget cảnh báo ngân sách<br>- Tìm hiểu Usage Budget và Savings Plans Budget | 15/09/2026 | 15/09/2026 | <https://000007.awsstudygroup.com/vi/> |
+| **4** | - Tìm hiểu AWS IAM<br>- Tạo IAM Group và IAM User<br>- Bật xác thực đa yếu tố (MFA) | 16/09/2026 | 16/09/2026 | <https://000002.awsstudygroup.com/vi/> |
+| **5** | - Tạo IAM Policy tùy chỉnh bằng Visual Editor<br>- Gán quyền hạn cho IAM Group | 17/09/2026 | 17/09/2026 | <https://000002.awsstudygroup.com/vi/> |
+| **6** | - Tạo IAM Role cấp quyền giữa các dịch vụ<br>- Thực hành chuyển đổi vai trò (Switch Role) | 18/09/2026 | 18/09/2026 | <https://000002.awsstudygroup.com/vi/> |
+
+---
 
 ### Kết quả đạt được tuần 1:
+- Kích hoạt tài khoản AWS Free Tier thành công
+- Thiết lập cảnh báo chi phí tự động với AWS Budgets
+- Tìm hiểu cách tạo User, Group và phân quyền an toàn qua IAM
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+Dịch vụ AWS đã sử dụng:
+- AWS Billing & Cost Management
+- AWS Identity and Access Management (IAM)
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+Kỹ năng đạt được:
+- Quản lý chi phí sử dụng tài nguyên cloud
+- Thao tác trên giao diện AWS Management Console
+- Thiết lập bảo mật tài khoản và phân quyền người dùng
