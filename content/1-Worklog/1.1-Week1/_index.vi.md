@@ -26,7 +26,7 @@ pre: " <b> 1.1. </b> "
 ### Kết quả đạt được tuần 1:
 - Kích hoạt tài khoản AWS Free Tier thành công
 - Thiết lập cảnh báo chi phí tự động với AWS Budgets
-- Tìm hiểu cách tạo User, Group và phân quyền an toàn qua IAM
+- Tìm hiểu cách tạo User, Group và phân quyền an toàn qua IAM 
 
 Dịch vụ AWS đã sử dụng:
 - AWS Billing & Cost Management
