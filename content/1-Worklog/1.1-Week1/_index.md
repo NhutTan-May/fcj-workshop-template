@@ -1,57 +1,38 @@
 ---
 title: "Week 1 Worklog"
-date: 2024-01-01
+date: 2026-09-14
 weight: 1
 chapter: false
 pre: " <b> 1.1. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
 
 ### Week 1 Objectives:
-
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+- Create an AWS Free Tier account and manage billing/costs
+- Get familiar with the AWS Management Console
+- Manage access permissions using AWS IAM
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Day | Task | Start Date | Completion Date | Reference Material |
+| :---: | :--- | :---: | :---: | :--- |
+| **2** | - Create an AWS Free Tier account<br>- Explore the AWS Console<br>- Review the Credit Killer checklist to avoid unexpected charges | 14/09/2026 | 14/09/2026 | <https://000001.awsstudygroup.com/vi/1-aws-free-tier-2025-revolution/> |
+| **3** | - Set up a Cost Budget for billing alerts<br>- Explore Usage Budgets and Savings Plans Budgets | 15/09/2026 | 15/09/2026 | <https://000007.awsstudygroup.com/vi/> |
+| **4** | - Learn AWS IAM fundamentals<br>- Create IAM Groups and IAM Users<br>- Enable Multi-Factor Authentication (MFA) | 16/09/2026 | 16/09/2026 | <https://000002.awsstudygroup.com/vi/> |
+| **5** | - Create custom IAM Policies using the Visual Editor<br>- Attach permission policies to IAM Groups | 17/09/2026 | 17/09/2026 | <https://000002.awsstudygroup.com/vi/> |
+| **6** | - Create IAM Roles for cross-service access<br>- Practice Switch Role workflows | 18/09/2026 | 18/09/2026 | <https://000002.awsstudygroup.com/vi/> |
+
+---
 
 ### Week 1 Achievements:
+- Successfully activated the AWS Free Tier account
+- Configured automated billing alerts with AWS Budgets
+- Learned how to create Users, Groups, and securely delegate permissions using IAM
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+AWS Services Used:
+- AWS Billing & Cost Management
+- AWS Identity and Access Management (IAM)
 
-* Successfully created and configured an AWS Free Tier account.
-
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+Skills Gained:
+- Cloud resource cost tracking and budget management
+- Navigating the AWS Management Console
+- Account security hardening and user access control

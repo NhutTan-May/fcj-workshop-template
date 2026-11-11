@@ -5,13 +5,7 @@ weight: 1
 chapter: false
 ---
 
-    
 # Internship Report
-
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your report, including this warning.
-{{% /notice %}}
-
 ### Student Information:
 &emsp; **Full Name:** Lê Nhựt Tân
 
@@ -31,13 +25,13 @@ chapter: false
 
 &emsp; **Internship Duration:** From 14/09/2026 to 14/12/2026
 
-![Your profile picture](/images/avatar.jpg)
+![Your profile picture](/fcj-workshop-template/images/avatar.jpg?width=200px)
 
 ### Report Content
 
 1.  [Worklog](1-Worklog/)
 2.  [Proposal](2-Proposal/)
-3.  [BlogsPosted](3-BlogsPosted/)
+3.  [Blogs Posted](3-BlogsPosted/)
 4.  [Events Participated](4-EventParticipated/)
 5.  [Workshop](5-Workshop/)
 6.  [Self-evaluation](6-Self-evaluation/)

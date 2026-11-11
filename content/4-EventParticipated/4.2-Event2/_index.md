@@ -1,126 +1,97 @@
 ---
 title: "Event 2"
-date: 2024-01-01
-weight: 1
+date: 2026-09-29
+weight: 2
 chapter: false
 pre: " <b> 4.2. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim** into your report, including this warning.
-{{% /notice %}}
-
-# Summary Report: “GenAI-powered App-DB Modernization workshop”
+# Summary Report: “AWS Cloud and AI Day Hanoi - Watch Party Ho Chi Minh City”
 
 ### Event Objectives
 
-- Share best practices in modern application design
-- Introduce Domain-Driven Design (DDD) and event-driven architecture
-- Provide guidance on selecting the right compute services
-- Present AI tools to support the development lifecycle
+- Explore the latest AWS technology trends centered on **Agentic AI**, data analytics, and application modernization.
+- Hear practical perspectives from technology leaders, government representatives, and leading Vietnamese enterprises on digital transformation.
+- Experience live AI solution demos and connect with the Cloud/AI community at the AWS Vietnam office (Bitexco Financial Tower, Ho Chi Minh City).
+- Shape an engineering mindset around applying **Agentic Systems** to software development workflows and cloud infrastructure optimization.
 
 ### Speakers
 
-- **Jignesh Shah** – Director, Open Source Databases
-- **Erica Liu** – Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** – Assc. Specialist SA, Serverless Amazon Web Services
+- **H.E. Hoàng Minh** – Deputy Minister of Science and Technology
+- **H.E. Jennifer Wicks** – U.S. Ambassador to Vietnam
+- **Dr. Werner Vogels** – CTO, Amazon.com
+- **Eric Yeo** – Country General Manager, Malaysia, Vietnam & Indochina, AWS
+- **Dr. Jens Lottner** – Chief Executive Officer, Techcombank
+- **Mai Lê** – Director of Product Management, Katalon
 
 ### Key Highlights
 
-#### Identifying the drawbacks of legacy application architecture
+#### Strategic Direction from the Opening Keynote
 
-- Long product release cycles → Lost revenue/missed opportunities  
-- Inefficient operations → Reduced productivity, higher costs  
-- Non-compliance with security regulations → Security breaches, loss of reputation  
+Core theme: *"What if we asked ourselves, 'Why not make every idea possible?'"*
 
-#### Transitioning to modern application architecture – Microservices
+- Explored how AWS equips builders with tools to push creative boundaries and bring ideas to production on the cloud.
+- Highlighted the shift toward **Agentic AI**: autonomous agent systems capable of decomposing tasks, invoking APIs, and executing multi-step workflows.
+- Enterprise lessons from digital banking (Techcombank) and automated software testing (Katalon) on adopting Cloud and Generative AI to improve customer experience.
 
-Migrating to a modular system — each function is an **independent service** communicating via **events**, built on three core pillars:
+#### Modern Data & Application Architecture Trends
 
-- **Queue Management**: Handle asynchronous tasks  
-- **Caching Strategy**: Optimize performance  
-- **Message Handling**: Flexible inter-service communication  
+- **Modern Data & Analytics**: Optimizing Data Lakes on Amazon S3, reducing heavy ETL bottlenecks, and unifying analytics pipelines to power AI models.
+- **Microservices & Serverless Evolution**: Combining virtual machines, container clusters (ECS/EKS), and Serverless (AWS Lambda) thoughtfully to balance cost and deployment speed.
+- **Enterprise-scale Security**: Centralized identity governance, end-to-end encryption, and financial-grade cloud security practices.
 
-#### Domain-Driven Design (DDD)
+#### Technology Showcase (Expo & Community Zones)
 
-- **Four-step method**: Identify domain events → arrange timeline → identify actors → define bounded contexts  
-- **Bookstore case study**: Demonstrates real-world DDD application  
-- **Context mapping**: 7 patterns for integrating bounded contexts  
-
-#### Event-Driven Architecture
-
-- **3 integration patterns**: Publish/Subscribe, Point-to-point, Streaming  
-- **Benefits**: Loose coupling, scalability, resilience  
-- **Sync vs async comparison**: Understanding the trade-offs  
-
-#### Compute Evolution
-
-- **Shared Responsibility Model**: EC2 → ECS → Fargate → Lambda  
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value  
-- **Functions vs Containers**: Criteria for appropriate choice  
-
-#### Amazon Q Developer
-
-- **SDLC automation**: From planning to maintenance  
-- **Code transformation**: Java upgrade, .NET modernization  
-- **AWS Transform agents**: VMware, Mainframe, .NET migration  
+- **8-Bit Agents Activation**: Hands-on zone for building, configuring, and deploying AI Agents to solve automated challenges within minutes.
+- **Startup Zone**: Showcased real-world Fintech, AI, and commerce solutions built by local startups on AWS.
+- **Developer Community Zone**: Direct networking with AWS Solutions Architects and the AWS User Group Vietnam community.
 
 ### Key Takeaways
 
 #### Design Mindset
 
-- **Business-first approach**: Always start from the business domain, not the technology  
-- **Ubiquitous language**: Importance of a shared vocabulary between business and tech teams  
-- **Bounded contexts**: Identifying and managing complexity in large systems  
+- **Agent-First Mindset**: AI is evolving beyond simple text copilots into autonomous agents that interact directly with backend APIs and databases.
+- **Data-centric Architecture**: Clean, well-structured data forms the essential foundation for reliable AI applications and analytics systems.
+- **Continuous Modernization**: Digital transformation is an ongoing process that favors loosely-coupled architectures for scalability.
 
 #### Technical Architecture
 
-- **Event storming technique**: Practical method for modeling business processes  
-- Use **event-driven communication** instead of synchronous calls  
-- **Integration patterns**: When to use sync, async, pub/sub, streaming  
-- **Compute spectrum**: Criteria for choosing between VM, containers, and serverless  
+- Integrating Generative AI (**Amazon Bedrock**) and Machine Learning (**Amazon SageMaker**) into existing data pipelines.
+- Pairing Event-Driven Architecture with AI agents to trigger automated business workflows when events occur.
+- Choosing compute infrastructure pragmatically between containers and serverless based on latency and workload profiles.
 
-#### Modernization Strategy
+#### Adoption Strategy
 
-- **Phased approach**: No rushing — follow a clear roadmap  
-- **7Rs framework**: Multiple modernization paths depending on the application  
-- **ROI measurement**: Cost reduction + business agility  
+- Taking a phased modernization approach, starting by organizing and cleaning the data layer before adding intelligent automation features.
+- Evaluating return on investment (ROI) alongside new technology adoption to avoid unnecessary cloud spend.
 
 ### Applying to Work
 
-- **Apply DDD** to current projects: Event storming sessions with business teams  
-- **Refactor microservices**: Use bounded contexts to define service boundaries  
-- **Implement event-driven patterns**: Replace some sync calls with async messaging  
-- **Adopt serverless**: Pilot AWS Lambda for suitable use cases  
-- **Try Amazon Q Developer**: Integrate into the dev workflow to boost productivity  
+- **Experimenting with AI Agents**: Explore building prototype AI agents on Amazon Bedrock to automate data queries and repetitive engineering tasks.
+- **Optimizing Data Pipelines**: Apply S3 Data Lake concepts combined with Amazon Athena querying for analytics coursework and lab projects.
+- **Applying AWS Security Best Practices**: Enforce Least Privilege with IAM and monitor system behavior through CloudWatch.
 
 ### Event Experience
 
-Attending the **“GenAI-powered App-DB Modernization”** workshop was extremely valuable, giving me a comprehensive view of modernizing applications and databases using advanced methods and tools. Key experiences included:
+Attending **AWS Cloud and AI Day Hanoi - Watch Party Ho Chi Minh City** at the AWS Vietnam office (Bitexco Financial Tower, Floors 26 & 36) on **September 29, 2026** was a particularly valuable learning and networking experience:
 
-#### Learning from highly skilled speakers
-- Experts from AWS and major tech organizations shared **best practices** in modern application design.  
-- Through real-world case studies, I gained a deeper understanding of applying **DDD** and **Event-Driven Architecture** to large projects.  
+#### Learning from top industry leaders
+- Following keynote talks from Amazon CTO **Dr. Werner Vogels** and executive leaders gave me a broader perspective on global-scale distributed architecture.
+- Enterprise case studies from Techcombank's CEO and Katalon's Director of Product Management illustrated practical Cloud and AI adoption in strict production environments.
 
-#### Hands-on technical exposure
-- Participating in **event storming** sessions helped me visualize how to **model business processes** into domain events.  
-- Learned how to **split microservices** and define **bounded contexts** to manage large-system complexity.  
-- Understood trade-offs between **synchronous and asynchronous communication** and integration patterns like **pub/sub, point-to-point, streaming**.  
+#### Hands-on technical and product exposure
+- Visiting the Expo zone and trying the **8-Bit Agents Activation** clarified how an AI Agent progresses from prompt input to autonomous tool execution.
+- Observed how local tech startups turn product ideas into commercial deployments using AWS cloud services.
 
-#### Leveraging modern tools
-- Explored **Amazon Q Developer**, an AI tool for SDLC support from planning to maintenance.  
-- Learned to **automate code transformation** and pilot serverless with **AWS Lambda** to improve productivity.  
-
-#### Networking and discussions
-- The workshop offered opportunities to exchange ideas with experts, peers, and business teams, enhancing the **ubiquitous language** between business and tech.  
-- Real-world examples reinforced the importance of the **business-first approach** rather than focusing solely on technology.  
+#### Community networking and engagement
+- Well-organized check-in and badge pickup on the 26th floor combined with a smooth livestream connection to the Hanoi main stage.
+- Direct conversations with AWS Solutions Architects and engineers in the Ho Chi Minh City tech community clarified real-world skill expectations.
 
 #### Lessons learned
-- Applying DDD and event-driven patterns reduces **coupling** while improving **scalability** and **resilience**.  
-- Modernization requires a **phased approach** with **ROI measurement**; rushing the process can be risky.  
-- AI tools like Amazon Q Developer can significantly **boost productivity** when integrated into the current workflow.  
+- The rise of Agentic AI requires engineers to build cleaner APIs and structured data layers that AI agents can interact with reliably, rather than relying solely on isolated prompts.
+- The spirit of *"Why not make every idea possible?"* encourages taking initiative with cloud tools to prototype software ideas rapidly and safely.
 
 #### Some event photos
-*Add your event photos here*  
+- ![Check-in at the Watch Party venue at Bitexco Financial Tower](/fcj-workshop-template/images/4-Events/Event02.jpg)
 
-> Overall, the event not only provided technical knowledge but also helped me reshape my thinking about application design, system modernization, and cross-team collaboration.
+> Overall, the event not only kept me up to date with AWS's latest cloud and AI advances, but also inspired me and gave me a clearer direction for growing my career in Cloud Computing and Artificial Intelligence.

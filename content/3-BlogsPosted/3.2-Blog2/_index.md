@@ -1,31 +1,29 @@
 ---
 title: "Blog 2"
-date: 2024-01-01
-weight: 1
+date: 2026-10-12
+weight: 2
 chapter: false
 pre: " <b> 3.2. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your report, including this warning.
-{{% /notice %}}
 
-# SESSION POLICIES IN AMAZON EKS POD IDENTITY
+# AWS LAMBDA WEB FUNCTIONS: RUN SERVERLESS HTTP WEB APPS DIRECTLY
 
-Amazon EKS Pod Identity has recently added the session policies feature, allowing you to narrow IAM permissions flexibly and precisely for each pod without needing to create many separate IAM roles. This is an important step forward that helps apply the principle of least privilege more effectively in large-scale Kubernetes environments.
+AWS recently introduced **AWS Lambda Web Functions**, a new serverless compute model that allows standard HTTP web applications and backend APIs to run directly on AWS Lambda without rewriting code into traditional event handlers or relying on adapter layers. Alongside this launch, traditional event-driven Lambda functions are renamed **Lambda Event Functions** (a naming distinction only, requiring zero changes to existing workloads), allowing developers to keep a familiar web-server development experience on serverless infrastructure.
 
 Key points to know:
 
-* A session policy is an inline IAM policy specified when creating or updating a Pod Identity association.
-* Effective permissions = intersection between the IAM role permissions and the session policy → the session policy can only narrow permissions, not expand them.
-* Helps avoid over-permissioning when reusing a single IAM role for multiple workloads with different needs.
-* Supports both same-account and cross-account (via IAM role chaining).
-* Significantly reduces the number of IAM roles that need to be managed, helping avoid hitting IAM quota limits in large clusters.
-* Easily configured through the AWS Management Console, AWS CLI, or AWS SDK when creating an association between a Kubernetes ServiceAccount and an IAM role.
+- **Native support for popular web frameworks:** Code runs as a standard web server listening directly on an HTTP port (launching with the Node.js 24 runtime on Arm64 architecture), allowing immediate use of Express, Hono, Fastify, Next.js, or React Router without wrapper libraries or complex translation layers.
+- **Concurrent request handling and reduced cold starts:** Unlike the single-request event execution model, a warm Web Function execution environment (provisioned with 2 vCPUs and 2 GB of memory at launch) can process multiple HTTP requests concurrently, significantly reducing cold starts.
+- **Cost efficiency with Active Compute billing:** Instead of paying for idle I/O wait time (such as waiting on database queries or downstream API calls), you are billed only for actual active CPU processing time, separated from memory and request charges.
+- **Native HTTP streaming support:** Enables streaming partial responses to clients as soon as chunks are ready rather than buffering the entire payload—ideal for real-time interfaces and Generative AI workloads.
+- **Clear three-part resource model:** Structured around **Web Function** (core resource holding name and settings), **Revision** (immutable snapshot of code and configuration enabling fast rollbacks), and **Endpoint** (network entry point providing a unique public HTTPS domain, authentication settings, and traffic routing rules).
+- **Multi-Region routing and Amazon VPC integration:** Supports deploying once across multiple AWS Regions to automatically route traffic to the Region closest to users for lower latency, while integrating natively with Amazon VPC to communicate securely with databases and internal resources.
 
-This feature is especially useful when you have many applications running on the same IAM role but need different permission restrictions (for example: one pod only reads a specific S3 bucket, another pod only calls certain APIs).
+This capability is particularly well suited for teams building modern web applications and backend APIs who want the simplicity of standard web frameworks alongside AWS Lambda's automatic scaling, zero server management, and active-compute pricing model.
 
-...Image...
+**Image:**
 
-...Link...
+![AWS Lambda Web Functions Architecture](/fcj-workshop-template/images/3-Blog/Blog02.png)
 
-...Guide...
+**Link**
+- 

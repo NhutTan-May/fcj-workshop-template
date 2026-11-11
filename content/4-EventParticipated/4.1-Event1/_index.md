@@ -1,126 +1,92 @@
 ---
 title: "Event 1"
-date: 2024-01-01
+date: 2026-09-26
 weight: 1
 chapter: false
 pre: " <b> 4.1. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim** into your report, including this warning.
-{{% /notice %}}
-
-# Summary Report: “GenAI-powered App-DB Modernization workshop”
+# Summary Report: “Buildrathon Kickoff: Code the Future with CMC Global”
 
 ### Event Objectives
 
-- Share best practices in modern application design
-- Introduce Domain-Driven Design (DDD) and event-driven architecture
-- Provide guidance on selecting the right compute services
-- Present AI tools to support the development lifecycle
+- Launch the Buildathon program co-organized by **AWS First Cloud AI Journey (FCAJ)** and **CMC Global**, introducing event goals, challenge prompts, and judging criteria.
+- Provide an overview of **AWS Cloud**, **Generative AI**, and how modern **AI Agents** are built using AWS services.
+- Connect participants through ice-breaking activities to share backgrounds and form teammates ahead of the challenge.
+- Inspire practical builder action around the message *"Don't just learn Cloud & AI for knowledge — build real products, gain lifelong teammates, and make your mark in the tech world"*, while outlining career opportunities in Cloud and AI.
 
 ### Speakers
 
-- **Jignesh Shah** – Director, Open Source Databases
-- **Erica Liu** – Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** – Assc. Specialist SA, Serverless Amazon Web Services
+- **Thien Lu** – Program Manager, FCAJ
+- **Truong Bui** – Tech Lead, CMC Global
+- **Phong Pham** – Program Manager, FCAJ
 
 ### Key Highlights
 
-#### Identifying the drawbacks of legacy application architecture
+#### Kickoff & Networking Session (Buildathon Kickoff & Ice-breaking, 09:00 - 09:45)
 
-- Long product release cycles → Lost revenue/missed opportunities  
-- Inefficient operations → Reduced productivity, higher costs  
-- Non-compliance with security regulations → Security breaches, loss of reputation  
+- **Buildathon Challenge Briefing**: Clarified participation format, expected product deliverables, and the official judging criteria.
+- **AWS Cloud & Generative AI Overview**: Reviewed how AWS services power Generative AI workloads and modern autonomous AI Agents.
+- **Ice-breaking Session**: Gave attendees an open space to introduce themselves, share common interests in AWS and AI, and form teams (teammates) for the upcoming Buildathon.
 
-#### Transitioning to modern application architecture – Microservices
+#### Talkshow & Q&A (Building a Career in Cloud & AI & Q&A, 09:45 - 10:45)
 
-Migrating to a modular system — each function is an **independent service** communicating via **events**, built on three core pillars:
+- **Enterprise Trends in Cloud & Agentic AI**: Industry professionals and AWS practitioners shared perspectives on real-world projects and how organizations adopt AWS and **Agentic AI** to solve business problems and drive innovation.
+- **Cloud & AI Career Roadmap**: Practical insights into career opportunities, essential skills to build early, and the role of AWS certifications in professional growth.
+- **Q&A Session**: Direct discussion with speakers and mentors covering Generative AI engineering, AWS certification paths, and tips for approaching the Buildathon challenge.
 
-- **Queue Management**: Handle asynchronous tasks  
-- **Caching Strategy**: Optimize performance  
-- **Message Handling**: Flexible inter-service communication  
+#### Hands-on Session (Hands-on: AI Agent Challenge, 10:45 - 11:15) & Wrap-up
 
-#### Domain-Driven Design (DDD)
-
-- **Four-step method**: Identify domain events → arrange timeline → identify actors → define bounded contexts  
-- **Bookstore case study**: Demonstrates real-world DDD application  
-- **Context mapping**: 7 patterns for integrating bounded contexts  
-
-#### Event-Driven Architecture
-
-- **3 integration patterns**: Publish/Subscribe, Point-to-point, Streaming  
-- **Benefits**: Loose coupling, scalability, resilience  
-- **Sync vs async comparison**: Understanding the trade-offs  
-
-#### Compute Evolution
-
-- **Shared Responsibility Model**: EC2 → ECS → Fargate → Lambda  
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value  
-- **Functions vs Containers**: Criteria for appropriate choice  
-
-#### Amazon Q Developer
-
-- **SDLC automation**: From planning to maintenance  
-- **Code transformation**: Java upgrade, .NET modernization  
-- **AWS Transform agents**: VMware, Mainframe, .NET migration  
+- **Prompt Engineering**: Structuring and refining prompts so foundation models return reliable, context-aware outputs.
+- **Retrieval-Augmented Generation (RAG) & Knowledge Bases**: Grounding model responses in external domain knowledge via Knowledge Bases to reduce hallucinations and improve accuracy.
+- **AI Agent Challenge**: Applied concepts directly in a mini challenge building an AI solution using AWS services with live mentor guidance, concluding with **Closing Remarks**, shared learning resources, and community activities.
 
 ### Key Takeaways
 
 #### Design Mindset
 
-- **Business-first approach**: Always start from the business domain, not the technology  
-- **Ubiquitous language**: Importance of a shared vocabulary between business and tech teams  
-- **Bounded contexts**: Identifying and managing complexity in large systems  
+- **Build Real Products**: Knowledge of Cloud and AI only creates real value when applied to build working solutions for concrete problems.
+- **Team Collaboration Early On**: Finding complementary teammates and aligning strengths from the ice-breaking stage makes a major difference in hackathon/Buildathon execution speed.
+- **Aligning AI with Business Context**: Understanding business needs before deciding between prompting, RAG, or full Agentic AI workflows.
 
 #### Technical Architecture
 
-- **Event storming technique**: Practical method for modeling business processes  
-- Use **event-driven communication** instead of synchronous calls  
-- **Integration patterns**: When to use sync, async, pub/sub, streaming  
-- **Compute spectrum**: Criteria for choosing between VM, containers, and serverless  
+- Understanding how **Prompt Engineering**, **Retrieval-Augmented Generation (RAG)**, **Knowledge Bases**, and **AI Agents** fit together inside a Generative AI application.
+- Seeing the practical workflow for turning an idea into an AWS-backed prototype within a short hands-on timeframe.
+- Selecting appropriate technical scope that aligns with real-world usability and Buildathon judging criteria.
 
-#### Modernization Strategy
+#### Application Strategy
 
-- **Phased approach**: No rushing — follow a clear roadmap  
-- **7Rs framework**: Multiple modernization paths depending on the application  
-- **ROI measurement**: Cost reduction + business agility  
+- Approach the Buildathon systematically: verify problem value and judging criteria before adding unnecessary technical complexity.
+- Leverage mentor feedback and community learning materials proactively to troubleshoot bottlenecks faster during prototyping.
 
 ### Applying to Work
 
-- **Apply DDD** to current projects: Event storming sessions with business teams  
-- **Refactor microservices**: Use bounded contexts to define service boundaries  
-- **Implement event-driven patterns**: Replace some sync calls with async messaging  
-- **Adopt serverless**: Pilot AWS Lambda for suitable use cases  
-- **Try Amazon Q Developer**: Integrate into the dev workflow to boost productivity  
+- **Preparing Architecture for Internship & Buildathon Projects**: Combine AWS infrastructure with Agentic AI patterns to design practical, demonstrable prototypes.
+- **Practicing RAG & Prompt Engineering**: Experiment with structured prompts and Knowledge Bases to improve response accuracy on domain-specific datasets.
+- **Planning AWS Learning & Certifications**: Balance daily hands-on labs with structured AWS certification preparation following speaker advice.
 
 ### Event Experience
 
-Attending the **“GenAI-powered App-DB Modernization”** workshop was extremely valuable, giving me a comprehensive view of modernizing applications and databases using advanced methods and tools. Key experiences included:
+Attending **Buildrathon Kickoff: Code the Future with CMC Global** at the AWS Vietnam office (Bitexco Financial Tower, 26th Floor, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City) from **09:00 - 12:00 on Saturday, September 26, 2026** was an energizing kickoff to my internship period:
 
-#### Learning from highly skilled speakers
-- Experts from AWS and major tech organizations shared **best practices** in modern application design.  
-- Through real-world case studies, I gained a deeper understanding of applying **DDD** and **Event-Driven Architecture** to large projects.  
+#### Learning from experienced speakers and mentors
+- Heard candid, relatable career insights from **Thien Lu** (Program Manager, FCAJ), **Truong Bui** (Tech Lead, CMC Global), and **Phong Pham** (Program Manager, FCAJ) on how enterprises apply Cloud and Agentic AI.
+- Received practical answers during the **Q&A** session regarding AWS certifications, real project readiness, and Buildathon strategy.
 
-#### Hands-on technical exposure
-- Participating in **event storming** sessions helped me visualize how to **model business processes** into domain events.  
-- Learned how to **split microservices** and define **bounded contexts** to manage large-system complexity.  
-- Understood trade-offs between **synchronous and asynchronous communication** and integration patterns like **pub/sub, point-to-point, streaming**.  
+#### Hands-on AI Agent Challenge exposure
+- Working on the mini challenge in **Hands-on: AI Agent Challenge** allowed me to apply **Prompt Engineering**, **RAG**, **Knowledge Bases**, and **AI Agents** on AWS directly.
+- Timely support from mentors helped clarify how the pieces connect end-to-end inside a limited session.
 
-#### Leveraging modern tools
-- Explored **Amazon Q Developer**, an AI tool for SDLC support from planning to maintenance.  
-- Learned to **automate code transformation** and pilot serverless with **AWS Lambda** to improve productivity.  
-
-#### Networking and discussions
-- The workshop offered opportunities to exchange ideas with experts, peers, and business teams, enhancing the **ubiquitous language** between business and tech.  
-- Real-world examples reinforced the importance of the **business-first approach** rather than focusing solely on technology.  
+#### Community networking and team building
+- The lively **Ice-breaking** activity on the 26th floor of Bitexco helped me meet peers who share interests in Cloud and AI and connect with potential teammates.
+- **Closing Remarks** wrapped up the morning with learning resources and memorable group photos alongside the AWS First Cloud AI Journey and CMC Global community.
 
 #### Lessons learned
-- Applying DDD and event-driven patterns reduces **coupling** while improving **scalability** and **resilience**.  
-- Modernization requires a **phased approach** with **ROI measurement**; rushing the process can be risky.  
-- AI tools like Amazon Q Developer can significantly **boost productivity** when integrated into the current workflow.  
+- Growing in Cloud & AI requires combining solid technical fundamentals, hands-on product building, and effective teamwork.
+- Asking speakers and mentors specific questions early is one of the fastest ways to clear both technical doubts and career direction questions.
 
 #### Some event photos
-*Add your event photos here*  
+- ![Group photo at Buildrathon Kickoff event at Bitexco Financial Tower](/fcj-workshop-template/images/4-Events/Event01.jpg)
 
-> Overall, the event not only provided technical knowledge but also helped me reshape my thinking about application design, system modernization, and cross-team collaboration.
+> Overall, the kickoff event not only gave me foundational hands-on exposure to Generative AI and AI Agents on AWS, but also connected me with motivated peers and built strong momentum for the rest of the internship and Buildathon journey.

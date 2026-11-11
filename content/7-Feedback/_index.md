@@ -1,47 +1,47 @@
 ---
 title: "Sharing and Feedback"
-date: 2024-01-01
+date: 2026-12-14
 weight: 7
 chapter: false
 pre: " <b> 7. </b> "
 ---
-
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your report, including this warning.
-{{% /notice %}}
 
 > Here, you can freely share your personal opinions about your experience participating in the First Cloud AI Journey program. This will help the FCAJ team improve any shortcomings based on the following aspects:
 
 ### Overall Evaluation
 
 **1. Working Environment**  
-The working environment is very friendly and open. FCAJ members are always willing to help whenever I encounter difficulties, even outside working hours. The workspace is tidy and comfortable, helping me focus better. However, I think it would be nice to have more social gatherings or team bonding activities to strengthen relationships.
+The learning and event space at the Bitexco office is comfortable, tidy, and welcoming. Everyone in the FCAJ community is approachable and willing to discuss or point out troubleshooting directions when I get stuck on a lab or configuration detail. However, since most participants complete weekly labs remotely at their own pace, adding a few small-group meetups or casual catch-ups would make it even easier to connect with peers.
 
 **2. Support from Mentor / Team Admin**  
-The mentor provides very detailed guidance, explains clearly when I don’t understand, and always encourages me to ask questions. The admin team supports administrative tasks, provides necessary documents, and creates favorable conditions for me to work effectively. I especially appreciate that the mentor allows me to try and solve problems myself instead of just giving the answer.
+Mentors and the admin team were supportive from onboarding and administrative setup through the offline events. What worked well for me is that when I asked questions, mentors usually pointed me toward checking the relevant logs or documentation rather than handing over the answer immediately, which helped me retain the knowledge and fix similar issues myself later on.
 
 **3. Relevance of Work to Academic Major**  
-The tasks I was assigned align well with the knowledge I learned at university, while also introducing me to new areas I had never encountered before. This allowed me to both strengthen my foundational knowledge and gain practical skills.
+My university major is Artificial Intelligence (AI), so the first few weeks covering VPC networking, routing, and IAM permissions felt unfamiliar at first. However, once the track moved into data pipelines, serverless workflows, and services like Amazon Bedrock and Amazon SageMaker, it became very clear how closely cloud infrastructure supports deploying AI systems in practice.
 
 **4. Learning & Skill Development Opportunities**  
-During the internship, I learned many new skills such as using project management tools, teamwork skills, and professional communication in a corporate environment. The mentor also shared valuable real-world experiences that helped me better plan my career path.
+Over the 12 weeks, besides getting hands-on practice with services across the AWS Console and CLI, I built better habits in reading English technical docs, maintaining consistent weekly worklogs, and keeping track of resource cleanup to avoid unexpected charges. Attending talkshows and mini challenges at offline events also gave me a clearer sense of how companies apply Cloud and AI in production.
 
 **5. Company Culture & Team Spirit**  
-The company culture is very positive: everyone respects each other, works seriously but still keeps things enjoyable. When there are urgent projects, everyone works together and supports one another regardless of their position. This made me feel like a real part of the team, even as an intern.
+The overall atmosphere is positive and respectful. During offline sessions like the Buildrathon Kickoff and Watch Party at the AWS office, attendees interacted naturally, found teammates quickly, and helped each other work through hands-on challenges even when meeting for the first time.
 
 **6. Internship Policies / Benefits**  
-The company provides an internship allowance and offers flexible working hours when needed. In addition, having the opportunity to join internal training sessions is a big plus.
-
----
+The program offers helpful schedule flexibility, making it manageable for students balancing internship tasks alongside university classes and coursework projects. Having access to the structured AWS Study Group curriculum along with invitations to in-person events at the AWS office was a major highlight.
 
 ### Additional Questions
-- What did you find **most satisfying** during your internship?  
-- What do you think the company **should improve** for future interns?  
-- If recommending to a friend, would you **suggest they intern here**? Why or why not?  
 
----
+- **What did you find most satisfying during your internship?**  
+  What satisfied me most was having a clear, step-by-step AWS hands-on curriculum from basics to advanced topics, combined with in-person events at the AWS Vietnam office. That combination made cloud infrastructure much less intimidating and gave me confidence to explore areas like Agentic AI and Serverless.
+- **What do you think the company should improve for future interns?**  
+  The team could consider hosting short periodic technical review or Q&A sessions in small groups (online or offline) so newer participants can troubleshoot configuration issues together faster instead of getting stuck alone for too long.
+- **If recommending to a friend, would you suggest they intern here? Why or why not?**  
+  Yes, especially for students who want a solid foundation in AWS or want to explore combining Cloud and AI. The lab path is structured, documentation is accessible in both Vietnamese and English, and the FCAJ community is supportive.
 
 ### Suggestions & Expectations
-- Do you have any suggestions to improve the internship experience?  
-- Would you like to continue this program in the future?  
-- Any other comments (free sharing):
+
+- **Do you have any suggestions to improve the internship experience?**  
+  Including a quick-reference checklist early in the program highlighting resources that are easiest to forget and incur Free Tier charges (beyond standard cleanup steps) would give newcomers extra peace of mind while experimenting.
+- **Would you like to continue this program in the future?**  
+  Yes, I would gladly participate in future FCAJ community workshops or help support upcoming cohorts if the opportunity arises.
+- **Any other comments (free sharing):**  
+  Thank you to the FCAJ team, mentors, and admins for supporting me throughout the three-month internship. It has been a very practical learning period before taking on larger projects ahead.

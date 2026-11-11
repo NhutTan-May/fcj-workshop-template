@@ -1,57 +1,40 @@
 ---
 title: "Week 7 Worklog"
-date: 2024-01-01
-weight: 1
+date: 2026-10-26
+weight: 7
 chapter: false
 pre: " <b> 1.7. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
 
 ### Week 7 Objectives:
-
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+- Explore Data Lake architecture and hybrid storage solutions
+- Practice cloud cost optimization
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Day | Task | Start Date | Completion Date | Reference Material |
+| :---: | :--- | :---: | :---: | :--- |
+| **2** | - Configure hybrid file storage with AWS Storage Gateway (File Gateway) | 26/10/2026 | 26/10/2026 | <https://000027.awsstudygroup.com/vi/> |
+| **3** | - Create a high-performance shared file system with Amazon FSx for Windows File Server | 27/10/2026 | 27/10/2026 | <https://000028.awsstudygroup.com/vi/> |
+| **4** | - Build a centralized Data Lake for raw data storage on Amazon S3 | 28/10/2026 | 28/10/2026 | <https://000030.awsstudygroup.com/vi/> |
+| **5** | - Create high-performance NoSQL tables using Amazon DynamoDB | 29/10/2026 | 29/10/2026 | <https://000031.awsstudygroup.com/vi/> |
+| **6** | - Learn cost optimization with Savings Plans and Reserved Instances<br>- Use AWS Compute Optimizer to right-size compute instances | 30/10/2026 | 30/10/2026 | <https://000032.awsstudygroup.com/vi/> |
+
+---
 
 ### Week 7 Achievements:
+- Configured hybrid file storage and high-speed shared file systems with Amazon FSx
+- Built an S3 Data Lake foundation and practiced working with NoSQL Amazon DynamoDB
+- Mastered infrastructure cost-reduction methods using Savings Plans and right-sizing
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+AWS Services Used:
+- AWS Storage Gateway
+- Amazon FSx
+- Amazon S3
+- Amazon DynamoDB
+- AWS Compute Optimizer
 
-* Successfully created and configured an AWS Free Tier account.
-
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+Skills Gained:
+- Administering diverse cloud and hybrid file storage solutions
+- Basic NoSQL database operations
+- Compute cost analysis and optimization
